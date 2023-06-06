@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+@import url('utilities.css');
+@import url('menu.css');
+@import url('header.css');
+@import url('s-presentation.css');
+@import url('s-download.css');
+@import url('s-opinions.css');
+@import url('footer.css');
+@import url('contacts.css');
+
+
+/*
+
+@import url('timeline.css');
+@import url('progress-bar.css');
+@import url('card.css');
+@import url('posts.css');
+@import url('contacts.css');
+@import url('responsive.css'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --dark-yellow: #F2C061;
+    --green-clay: #79B083; 
+    --cyan: #457EDE; 
+    --salmon: #F5746E;
+    --peach: #FAA378;
+    --cyan-50: #A2BFEF;
+    --light: #F2F2F2; 
+    --dark-50: #ACACAC;
+    --pure-black: #000000;
+    --dark: #595959;
+}
+
+body {
+    background-color: var(--white);
+    -webkit-font-smoothing: antialiased; /*para tornar as fontes mais realistas // usado normalmente quando as fontes são renderizadas*/
+}
+
+
+p {
+    font-family: 'Lato';
+    font-size: 15px;
+    color: var(--pure-black);
+    line-height: 32px;
+}
+
+p.span {
+    font-family: 'Lato';
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--pure-black);
+    text-align: center;
+    margin-bottom: 2rem ;
+}
+
+title {
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--salmon);
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+}
+
+.utilizador, .info.opinions {
+    text-align: start;
+}
+
+
+

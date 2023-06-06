@@ -1,0 +1,41 @@
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--pure-black);
+}
+
+.s-download.home-2 {
+    grid-area: home-2;
+    align-content: space-between;
+
+}
+
+.s-download.screen-home-2 {
+    grid-area: screen-home-2;
+}
+
+.s-download {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "screen-home-2"
+    "home-2";
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-items: left;
+    /* white-space: pre-line; */
+    background-color: var(--light);
+}
+
+
+
+
+
+
+
+
+

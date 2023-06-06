@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--pure-black);
+}
+
+header .home {
+    grid-area: home;
+    align-content: space-between;
+
+}
+
+header.screen-home {
+    grid-area: screen-home;
+}
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "home"
+    "screen-home";
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-items: end;
+    white-space: pre-line;
+}
+
+
+
+

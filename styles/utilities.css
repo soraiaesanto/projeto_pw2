@@ -1,0 +1,47 @@
+.btn {
+    background-color: var(--cyan);
+    height: 3.200rem;
+    border-radius: 9999px;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    padding: 1.5rem;
+    /* min-width: 180px; */
+    max-width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* width: 180px; */
+    color: var(--white);
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.3s;
+    text-decoration: none;
+}
+
+.btn:hover {
+    filter: brightness(0.8);
+    /* background-color: var(--dark); */
+}
+
+a.btn {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.btn-play img  {
+    width: 35px !important; 
+}
+
+.btn img {
+    padding-right: 15px;
+    max-width: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}

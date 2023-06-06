@@ -1,0 +1,44 @@
+footer img {
+    width: 200px;
+}
+
+hr {
+    color: var(--dark-50);
+    height: 1px;
+    margin: auto;
+}
+
+hr.large {
+   width: 50%; 
+}
+
+hr.small  {
+    width: 20%;
+}
+
+.list.social a i {
+    color: var(--dark-50);
+    margin: 1rem;
+}
+
+.list.social a i:hover {
+    /* color: var(--dark); */
+    filter: brightness(0.8);
+}
+
+footer p {
+    color: var(--cyan);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 13px;
+    align-self: end;
+    margin: auto;
+}
+
+footer {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
