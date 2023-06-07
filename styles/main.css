@@ -44,8 +44,16 @@
 body {
     background-color: var(--white);
     -webkit-font-smoothing: antialiased; /*para tornar as fontes mais realistas // usado normalmente quando as fontes são renderizadas*/
+    /* padding: 0 5rem; */
 }
 
+section {
+    padding: 5rem;
+}
+
+nav, header {
+    padding-inline: 5rem;
+}
 
 p {
     font-family: 'Lato';

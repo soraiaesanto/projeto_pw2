@@ -1,3 +1,4 @@
+
 const menu = document.querySelector('.menu');
 const mobileMenuButton = document.querySelector('button.mobile-menu-button');
 
@@ -6,6 +7,7 @@ const emailInput = document.querySelector('input[name="email"]');
 const messageInput = document.querySelector('textarea[name="message"]');
 const form = document.querySelector('form');
 const errorsList = document.querySelector('ul.errors');
+const facsQuestions = document.querySelectorAll('section.s-faqs .faq .accordion');
 
 function handleWindowScroll() {
     if (window.scrollY >= 60) {
@@ -48,6 +50,15 @@ function handleFormSubmit(event) {
     }
 }
 
+function handleOpenFacsQuestion() {
+    const textElement = this.nextElementSibling;
+    textElement.style.display = (textElement.style.display === "block") ? "none" : "block";
+}
+
 window.addEventListener('scroll', handleWindowScroll);
-mobileMenuButton.addEventListener('click', handleMobileMenuClick);
-form.addEventListener('submit', handleFormSubmit);
+// mobileMenuButton.addEventListener('click', handleMobileMenuClick);
+// form.addEventListener('submit', handleFormSubmit);
+//https://stackoverflow.com/questions/19655189/javascript-click-event-listener-on-class
+facsQuestions.forEach( (_value, index) => {
+    facsQuestions[index].addEventListener('click', handleOpenFacsQuestion);
+});

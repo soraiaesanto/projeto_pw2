@@ -20,13 +20,16 @@
     text-decoration: none;
 }
 
-.btn.submit{
+.btn.submit {
     background-color: var(--dark);
     color: var(--white);
     /* padding: 1rem; */
     font-size: 15px;
     width: 150px;
     margin-top: 2rem;
+    font-family: 'Montserrat';
+    /* font-size: 17px; */
+    font-weight: 500;
 }
 
 ::placeholder {
@@ -45,8 +48,8 @@ a.btn {
     color: var(--white);
 }
 
-.btn-play img  {
-    width: 35px !important; 
+.btn-play img {
+    width: 35px !important;
 }
 
 .btn img {
@@ -59,4 +62,17 @@ a.btn {
     gap: 20px;
 }
 
-
+.accordion {
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--pure-black);
+    text-align: left;
+    border: none;
+    background-color: var(--light);
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
