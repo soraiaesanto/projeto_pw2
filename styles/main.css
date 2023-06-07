@@ -89,5 +89,12 @@ ul {
     text-align: start;
 }
 
+h1.v2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--pure-black);
+}
+
 
 

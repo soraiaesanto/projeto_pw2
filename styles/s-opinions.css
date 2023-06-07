@@ -7,7 +7,7 @@
     align-items: center;
     text-align: center;
     align-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 5rem;
 }
 
@@ -30,10 +30,9 @@
     "img"
     "description";
     align-items: start;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* white-space: pre-line; */
     background-color: var(--light);
-    
 }   
 
 .img img{

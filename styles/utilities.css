@@ -20,6 +20,19 @@
     text-decoration: none;
 }
 
+.btn.submit{
+    background-color: var(--dark);
+    color: var(--white);
+    /* padding: 1rem; */
+    font-size: 15px;
+    width: 150px;
+    margin-top: 2rem;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
 .btn:hover {
     filter: brightness(0.8);
     /* background-color: var(--dark); */
@@ -45,3 +58,5 @@ a.btn {
     display: flex;
     gap: 20px;
 }
+
+

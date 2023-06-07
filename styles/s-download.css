@@ -1,14 +1,6 @@
-h1 {
-    font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 60px;
-    color: var(--pure-black);
-}
-
 .s-download.home-2 {
     grid-area: home-2;
     align-content: space-between;
-
 }
 
 .s-download.screen-home-2 {

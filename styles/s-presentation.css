@@ -1,5 +1,9 @@
-.posts.presentation {
+.s-presentation {
     background-color: var(--light);
+    /* padding: 2rem; */
+}
+
+.posts.presentation {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
