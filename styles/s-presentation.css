@@ -10,7 +10,7 @@
     grid-row: auto;
     align-items: center;
     text-align: center;
-    align-content: space-between;
+    /* align-content: space-between; */
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -18,11 +18,23 @@
 .card.presentation {
     background-color: var(--white);
     border-radius: 10px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    height: -webkit-fill-available;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
     padding: 2rem;
-    white-space: pre-line;
+    /* white-space: pre-line; */
 }
+
+
+.info {
+    display: block;
+    height: inherit;
+}
+
+.h2-p {
+    display: block;
+    margin-top: 2rem;
+}
+
 

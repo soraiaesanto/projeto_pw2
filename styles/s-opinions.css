@@ -14,7 +14,7 @@
 .card.opinions {
     background-color: var(--light);
     border-radius: 10px;
-    height: 500px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,4 +60,8 @@ p.name {
     font-style: italic;
     /* font-weight: 600; */
     /* font-size: large; */
+}
+
+.description {
+    padding-left: 1rem;
 }
