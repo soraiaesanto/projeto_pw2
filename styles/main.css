@@ -51,8 +51,16 @@ section {
     padding: 5rem;
 }
 
-nav, header {
+header {
     padding-inline: 5rem;
+}
+
+/* a, nav {
+    padding-left: 5rem;
+} */
+
+.pt-en {
+    padding-right: 5rem;
 }
 
 p {
@@ -60,6 +68,7 @@ p {
     font-size: 15px;
     color: var(--pure-black);
     line-height: 32px;
+    text-align: justify;
 }
 
 p.span {

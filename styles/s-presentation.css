@@ -30,6 +30,7 @@
 .info {
     display: block;
     height: inherit;
+    text-align: center;
 }
 
 .h2-p {

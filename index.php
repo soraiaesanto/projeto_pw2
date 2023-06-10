@@ -30,7 +30,7 @@
             default:
                 echo "<h1> 404 NOT FOUND</h1>";
         }
-        include('./footer.html');
+        include('./footer2.html');
     ?>
 
 </body>
