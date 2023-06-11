@@ -1,3 +1,8 @@
+.contacts {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
 p.faqs {
     text-align: center;
     margin-bottom: 2rem;
@@ -11,21 +16,55 @@ h2.title,
 p.description-form {
     text-align: justify;
     /* justify-content: left; */
-    margin-right: 2rem ;
+    margin-right: 2rem;
     color: var(--white);
     /* width: 80%; */
 }
 
+.asset {
+    background-repeat: no-repeat;
+    /* margin: auto; */
+    background-attachment: absolute;
+    background-size: 100% 100%;
+    /* padding: 2rem; */
+    /* filter: opacity(0.8); */
+}
+
+/* .asset-1 {
+    background-image: url('../assets/yellow.svg');
+}
+
+.asset-2 {
+    background-image: url('../assets/salmon.svg');
+    filter: saturate(0);
+}
+
+.asset-3 {
+    background-image: url('../assets/green.svg');
+    /* filter: saturate(0); */
+/* }  */
+
+
+p.description-form {
+    font-weight: 500;
+}
+
 .manual-contact {
-    text-align: left;
-    color: var(--white);
-    font-family: 'Lato';
+    text-align: center;
+    /* color: var(--white); */
+    /* font-family: 'Lato'; */
     font-size: 15px;
     font-weight: 700;
-    color: var(--cyan-50);
+    color: var(--dark);
     font-family: 'Montserrat';
     line-height: 32px;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.mail:hover {
+    text-decoration: underline;
 }
 
 dt {
@@ -34,7 +73,7 @@ dt {
 
 dd,
 a {
-    color: var(--cyan-50);
+    color: var(--dark-50);
     text-decoration: none;
     font-weight: 500;
 }
@@ -61,7 +100,7 @@ textarea {
     display: grid;
     flex-direction: column;
     gap: 1rem;
-    align-items: stretch;
+    align-items: start;
 }
 
 input,
