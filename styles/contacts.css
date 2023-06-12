@@ -1,6 +1,19 @@
+/* .s-contacts {
+    background-image: url('../assets/yellow.svg');
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-repeat: repeat; 
+    margin: auto;
+    background-attachment: absolute;
+    background-size: 100% 100%;
+    background-size: 50%%;
+    filter: saturate(0);
+    filter:opacity(20%)
+} */
+
 .contacts {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 p.faqs {
@@ -21,14 +34,15 @@ p.description-form {
     /* width: 80%; */
 }
 
-.asset {
+
+/* .asset {
     background-repeat: no-repeat;
-    /* margin: auto; */
+    margin: auto;
     background-attachment: absolute;
     background-size: 100% 100%;
-    /* padding: 2rem; */
-    /* filter: opacity(0.8); */
-}
+    padding: 2rem;
+    filter: opacity(0.8);
+} */
 
 /* .asset-1 {
     background-image: url('../assets/yellow.svg');
@@ -36,13 +50,11 @@ p.description-form {
 
 .asset-2 {
     background-image: url('../assets/salmon.svg');
-    filter: saturate(0);
 }
 
 .asset-3 {
     background-image: url('../assets/green.svg');
-    /* filter: saturate(0); */
-/* }  */
+ }   */
 
 
 p.description-form {
@@ -55,7 +67,7 @@ p.description-form {
     /* font-family: 'Lato'; */
     font-size: 15px;
     font-weight: 700;
-    color: var(--dark);
+    color: var(--pure-black);
     font-family: 'Montserrat';
     line-height: 32px;
     display: flex;
@@ -73,7 +85,7 @@ dt {
 
 dd,
 a {
-    color: var(--dark-50);
+    color: var(--pure-black);
     text-decoration: none;
     font-weight: 500;
 }

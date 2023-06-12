@@ -12,27 +12,29 @@
 
 <body>
     <?php
-        $page = isset($_GET['page']) ? $_GET['page']: "index";
-        include('./menu.html');
-        switch($page){
-            case "index":
-                include('./header.html');
-                include('./s-presentation.html');
-                include('./s-opinions.html');
-                include('./s-download.html');
-                break;
-            case "contacts":
-                include('./contacts.html');
-                break;
-            case "faqs":
-                include('./faqs.html');
-                break;
-            default:
-                echo "<h1> 404 NOT FOUND</h1>";
-        }
-        include('./footer2.html');
+    $page = isset($_GET['page']) ? $_GET['page'] : "index";
+    include('./menu.html');
+    switch ($page) {
+        case "index":
+            include('./header.html');
+            include('./s-presentation.html');
+            include('./s-opinions.html');
+            include('./s-download.html');
+            break;
+        case "contacts":
+            include('./contacts.html');
+            break;
+        case "faqs":
+            include('./faqs.html');
+            break;
+        default:
+            // echo "<h1> 404 NOT FOUND</h1>";
+            include('./404.html');
+    }
+    include('./footer2.html');
     ?>
 
 </body>
 <script src="scripts/app.js"></script>
+
 </html>

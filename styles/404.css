@@ -1,0 +1,31 @@
+.p-404 {
+    padding: 5rem;
+    text-align-last: center;
+    /* text-align: center; */
+    /* width: min-content; */
+    vertical-align: middle;
+}
+
+.p-404 p {
+    margin-top: 5rem;
+}
+
+h1.thin{
+    font-weight: 400;
+}
+
+#erro404 {
+    text-align: -webkit-center;
+    /* align-self: center; */
+}
+
+span {
+    background-image: url('../assets/yellow.svg');
+    background-repeat: no-repeat;
+    margin: auto;
+    background-attachment: absolute;
+    background-size: 100% 130%;
+    padding: 2rem;
+    /* filter: opacity(0.8); */
+}
+
