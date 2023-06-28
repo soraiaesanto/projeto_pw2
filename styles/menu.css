@@ -27,7 +27,7 @@ nav .logo{
 }
 
 .menu img {
-    width: 100px;
+    width: 7rem;
 }
 
 ul.menu.active {
@@ -50,11 +50,11 @@ li {
 li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: var(--pure-black);
 }
 
@@ -85,8 +85,8 @@ a.logo-img {
 
 #backToTopButton {
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 1.25rem;
+    right: 1.875rem;
     z-index: 99;
     border: none;
     background-color: transparent;

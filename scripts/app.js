@@ -62,10 +62,21 @@ function handleMobileMenuClick() {
 //     }
 // }
 
+
 function handleOpenFacsQuestion() {
-    const textElement = this.nextElementSibling;
-    textElement.style.display = (textElement.style.display === "block") ? "none" : "block";
+  const textElement = this.nextElementSibling;
+  const dropdownElements = document.querySelectorAll('.fa-solid.fa-chevron-down');
+
+  textElement.style.display = (textElement.style.display === "block") ? "none" : "block";
+  
+  dropdownElements.forEach((dropdownElement) => {
+    dropdownElement.style.transform = ""; // Remove a transformação de rotação de todos os elementos
+  });
+
+  const currentDropdownElement = this.querySelector('.fa-solid.fa-chevron-down');
+  currentDropdownElement.style.transform = (textElement.style.display === "block") ? "rotate(180deg)" : "";
 }
+
 
 
 function scrollFunction() {

@@ -34,11 +34,11 @@ p.description-form {
 
 .manual-contact {
     text-align: center;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 700;
     color: var(--dark);
-    font-family: 'Montserrat';
-    line-height: 32px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -90,7 +90,7 @@ textarea {
     /* border: 1px solid var(--white); */
     padding: 0.625rem;
     color: var(--dark);
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     border: none;
 }
 

@@ -1,5 +1,5 @@
 footer img {
-    width: 150px;
+    width: 9.375rem;
     opacity: 0.5;
     margin-top: 2rem;
 }
@@ -40,7 +40,7 @@ footer p {
     color: var(--cyan-50);
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 13px;
+    font-size: 0.8125rem;
     align-self: end;
     margin: 1rem auto;
 }

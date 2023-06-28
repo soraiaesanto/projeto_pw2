@@ -14,7 +14,7 @@
 .card.opinions {
     background-color: var(--light);
     border-radius: 10px;
-    height: 450px;
+    height: 28.125rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,7 +38,7 @@
 .img img{
     justify-self: left;
     border-radius: 100px;
-    width: 50px;
+    width: 3.125rem;
     margin-right: 1rem;
 }
 

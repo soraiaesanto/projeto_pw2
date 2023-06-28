@@ -2,11 +2,11 @@
     background-color: var(--cyan);
     height: 3.200rem;
     border-radius: 9999px;
-    font-size: 20px;
+    font-size: 1.25rem;
     /* text-transform: uppercase; */
     padding: 1.5rem;
     /* min-width: 180px; */
-    max-width: 200px;
+    max-width: 12.5rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -24,16 +24,16 @@
     background-color: var(--dark);
     color: var(--white);
     /* padding: 1rem; */
-    font-size: 15px;
-    width: 150px;
+    font-size: 0.9375rem;
+    width: 9.375rem;
     /* margin-top: 2rem; */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     /* font-size: 17px; */
     font-weight: 500;
 }
 
 ::placeholder {
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .btn:hover {
@@ -42,29 +42,29 @@
 }
 
 a.btn {
-    font-family: 'Montserrat';
-    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0625rem;
     font-weight: 500;
     color: var(--white);
 }
 
 .btn-play img {
-    width: 35px !important;
+    width: 2.1875rem !important;
 }
 
 .btn img {
-    padding-right: 15px;
-    max-width: 40px;
+    padding-right: 0.9375rem;
+    max-width: 2.5rem;
 }
 
 .buttons {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .accordion {
-    font-family: 'Lato';
-    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9375rem;
     font-weight: 500;
     color: var(--pure-black);
     text-align: left;
