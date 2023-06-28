@@ -27,7 +27,7 @@
     font-size: 15px;
     width: 150px;
     /* margin-top: 2rem; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     /* font-size: 17px; */
     font-weight: 500;
 }
@@ -42,7 +42,7 @@
 }
 
 a.btn {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-size: 17px;
     font-weight: 500;
     color: var(--white);
@@ -63,7 +63,7 @@ a.btn {
 }
 
 .accordion {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-size: 15px;
     font-weight: 500;
     color: var(--pure-black);

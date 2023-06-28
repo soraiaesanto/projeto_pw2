@@ -10,8 +10,13 @@
 .s-download {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "screen-home-2"
+    "home-2";
     align-items: center;
+    align-content: space-between;
     flex-wrap: wrap;
     justify-items: left;
     white-space: pre-line;
