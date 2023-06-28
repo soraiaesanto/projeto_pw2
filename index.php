@@ -28,7 +28,6 @@
             include('./faqs.html');
             break;
         default:
-            // echo "<h1> 404 NOT FOUND</h1>";
             include('./404.html');
     }
     include('./footer2.html');

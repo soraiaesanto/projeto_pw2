@@ -13,7 +13,7 @@
 
 .contacts {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 p.faqs {
@@ -37,12 +37,12 @@ p.description-form {
 
 /* .asset {
     background-repeat: no-repeat;
-    margin: auto;
+    /* margin: auto; */
     background-attachment: absolute;
     background-size: 100% 100%;
-    padding: 2rem;
-    filter: opacity(0.8);
-} */
+    /* padding: 2rem; */
+    /* filter: opacity(0.8); 
+}
 
 /* .asset-1 {
     background-image: url('../assets/yellow.svg');
@@ -50,11 +50,13 @@ p.description-form {
 
 .asset-2 {
     background-image: url('../assets/salmon.svg');
+    filter: saturate(0);
 }
 
 .asset-3 {
     background-image: url('../assets/green.svg');
- }   */
+    /* filter: saturate(0); */
+/* }  */
 
 
 p.description-form {
@@ -63,11 +65,9 @@ p.description-form {
 
 .manual-contact {
     text-align: center;
-    /* color: var(--white); */
-    /* font-family: 'Lato'; */
-    font-size: 15px;
+    font-size: 0.8333rem;
     font-weight: 700;
-    color: var(--pure-black);
+    color: var(--dark);
     font-family: 'Montserrat';
     line-height: 32px;
     display: flex;
@@ -122,7 +122,7 @@ textarea {
     /* border: 1px solid var(--white); */
     padding: 0.625rem;
     color: var(--dark);
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     border: none;
 }
 

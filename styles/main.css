@@ -8,19 +8,12 @@
 @import url('s-presentation.css');
 @import url('s-download.css');
 @import url('s-opinions.css');
+@import url('faqs.css');
 @import url('footer.css');
 @import url('contacts.css');
+@import url('responsive.css');
 @import url('404.css');
 
-
-/*
-
-@import url('timeline.css');
-@import url('progress-bar.css');
-@import url('card.css');
-@import url('posts.css');
-@import url('contacts.css');
-@import url('responsive.css'); */
 
 * {
     margin: 0;
@@ -40,12 +33,19 @@
     --dark-50: #ACACAC;
     --pure-black: #000000;
     --dark: #595959;
+    /* --xs: 576px;
+    --md: 768px;
+    --xl: 992px;
+    --xxl: 1200px; */
 }
 
 body {
     background-color: var(--white);
     -webkit-font-smoothing: antialiased; /*para tornar as fontes mais realistas // usado normalmente quando as fontes são renderizadas*/
-    /* padding: 0 5rem; */
+}
+
+html,body{
+    overflow-x: hidden;
 }
 
 section {
@@ -56,32 +56,24 @@ header {
     padding-inline: 5rem;
 }
 
-/* a, nav {
-    padding-left: 5rem;
-} */
-
-.pt-en {
-    padding-right: 5rem;
-}
-
 p {
-    font-family: 'Lato';
-    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9375rem;
     color: var(--pure-black);
-    line-height: 32px;
+    line-height: 2rem;
     text-align: justify;
 }
 
 p.span {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     color: var(--cyan);
     font-weight: 600;
 }
 
 h2 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.3889rem;
     color: var(--pure-black);
     text-align: center;
     margin-bottom: 2rem ;
@@ -92,9 +84,9 @@ title {
 }
 
 h3 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 17px;
+    font-size:0.9444rem;
     color: var(--salmon);
 }
 
@@ -108,9 +100,9 @@ ul {
 }
 
 h1.v2 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 2.7778rem;
     color: var(--pure-black);
 }
 

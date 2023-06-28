@@ -1,0 +1,92 @@
+/* Extra large devices (large laptops/desktops, >= 1200px)  */ 
+@media only screen and (min-width: 1201px) {
+}
+
+/* Large devices (laptops/desktops, >= 992px)  */ 
+@media only screen and (max-width: 1200px) {
+    section.s-opinions .posts.opinions,
+    section.s-presentation .posts.presentation {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Medium devices (portrait tablets, >= 768px)  */ 
+@media only screen and (max-width: 992px) {
+    section.s-download {
+        grid-template-columns: 1fr;
+    }
+    section.s-download .screen-home-2 img, header .screen-home img{
+        width: 100%;
+        text-align-last: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, >= 600px)  */ 
+@media only screen and (max-width: 768px) {
+    header,section {
+        padding: 2rem!important;
+    }
+    nav.container {
+        padding-inline: 2rem;
+    }
+    section.s-presentation .posts.presentation,
+    section.s-opinions .posts.opinions,
+    footer .form,
+    header{
+        grid-template-columns: 1fr;
+    }
+
+    .manual-contact{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Extra small devices (phones, <= 600px) */
+@media only screen and (max-width: 600px) {
+    /* NAVBAR */
+    nav .menu {
+        grid-template-columns: 1fr 1fr;
+    }
+    nav .menu .items, nav .pt-en{
+        display: none;
+    }
+    nav img{
+        width: 100%;
+        text-align-last: center;
+    }
+    nav .menu .mobile-menu-button {
+        display: block;
+        text-align-last: end;
+        background: none;
+        border: none;
+        font-size: 2rem;
+    }
+
+    nav .menu-mobile.show {
+        display: flex;
+        background-color: var(--light);
+        border: 3px solid #ACACAC;
+    }
+
+    nav .menu-mobile.show div {
+        width: 100%;
+        text-align-last: center;
+    }
+
+    nav .menu-mobile.show p {
+        width: 100%;
+        border-bottom: 1px solid #ACACAC;
+    }
+
+    nav .menu-mobile.show a {
+        color: black;
+    }
+    
+    .pt-en-mobile a, .pt-en-mobile p{
+        color:black
+    }
+    
+    .pt-en-mobile a.active-language{
+        color: blue!important;
+    }
+}
