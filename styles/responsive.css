@@ -1,16 +1,13 @@
-/* Extra large devices (large laptops/desktops, >= 1200px)  */ 
-@media only screen and (min-width: 1201px) {
-}
-
-/* Large devices (laptops/desktops, >= 992px)  */ 
+/* Large devices (laptops/desktops, <= 1200px)  */ 
 @media only screen and (max-width: 1200px) {
     section.s-opinions .posts.opinions,
-    section.s-presentation .posts.presentation {
+    section.s-presentation .posts.presentation,
+    section.news .posts {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-/* Medium devices (portrait tablets, >= 768px)  */ 
+/* Medium devices (portrait tablets, <= 992px)  */ 
 @media only screen and (max-width: 992px) {
     section.s-download {
         grid-template-columns: 1fr;
@@ -21,22 +18,20 @@
     }
 }
 
-/* Small devices (portrait tablets and large phones, >= 600px)  */ 
+/* Small devices (portrait tablets and large phones, <= 768px)  */ 
 @media only screen and (max-width: 768px) {
-    header,section {
-        padding: 2rem!important;
+    header,
+    section,
+    nav.container  {
+        padding-inline: 2rem!important;
     }
-    nav.container {
-        padding-inline: 2rem;
-    }
+
     section.s-presentation .posts.presentation,
     section.s-opinions .posts.opinions,
     footer .form,
+    .manual-contact,
+    section.news .posts,
     header{
-        grid-template-columns: 1fr;
-    }
-
-    .manual-contact{
         grid-template-columns: 1fr;
     }
 }
@@ -64,8 +59,9 @@
 
     nav .menu-mobile.show {
         display: flex;
-        background-color: var(--light);
-        border: 3px solid #ACACAC;
+        background-color: var(--white);
+        border-radius: 5px;
+        padding-bottom: 2rem;
     }
 
     nav .menu-mobile.show div {
@@ -79,14 +75,18 @@
     }
 
     nav .menu-mobile.show a {
-        color: black;
+        color: var(--dark);
+    }
+
+    .pt-en-mobile {
+        border-bottom: 0px !important;
     }
     
     .pt-en-mobile a, .pt-en-mobile p{
-        color:black
+        color:var(--dark);
     }
     
     .pt-en-mobile a.active-language{
-        color: blue!important;
+        color: var(--cyan)!important;
     }
 }

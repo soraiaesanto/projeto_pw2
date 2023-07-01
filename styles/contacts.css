@@ -16,10 +16,8 @@ p.faqs {
 h2.title,
 p.description-form {
     text-align: justify;
-    /* justify-content: left; */
     margin-right: 2rem;
     color: var(--white);
-    /* width: 80%; */
 }
 
 .asset {
@@ -66,7 +64,6 @@ a {
     padding-bottom: 0;
     grid-row: auto;
     align-items: center;
-    /* text-align: center; */
     align-content: space-between;
     gap: 5rem;
     align-items: start;
@@ -87,7 +84,6 @@ input,
 textarea {
     background-color: var(--white);
     border-radius: 5px;
-    /* border: 1px solid var(--white); */
     padding: 0.625rem;
     color: var(--dark);
     font-family: 'Lato', sans-serif;

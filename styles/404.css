@@ -1,8 +1,6 @@
 .p-404 {
     padding: 5rem;
     text-align-last: center;
-    /* text-align: center; */
-    /* width: min-content; */
     vertical-align: middle;
 }
 
@@ -16,7 +14,6 @@ h1.thin{
 
 #erro404 {
     text-align: -webkit-center;
-    /* align-self: center; */
 }
 
 span {
@@ -26,6 +23,5 @@ span {
     background-attachment: absolute;
     background-size: 100% 130%;
     padding: 2rem;
-    /* filter: opacity(0.8); */
 }
 

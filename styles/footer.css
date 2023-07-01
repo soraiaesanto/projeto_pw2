@@ -3,16 +3,10 @@ footer img {
     opacity: 0.5;
     margin-top: 2rem;
 }
-/* footer img:hover {
-    opacity: 0.8;
-
-} */
 
 hr {
     color: var(--cyan-50);
-    /* weight: 10px; */
     margin: auto;
-    /* text-decoration: none; */
     opacity: 0.2;
     border-style: solid;
 }
@@ -28,12 +22,10 @@ hr.small {
 .list.social a i {
     color: var(--white);
     opacity: 0.5;
-    /* margin: 1rem; */
 }
 
 .list.social a i:hover {
-    /* color: var(--white); */
-    opacity:0.8;
+    opacity: 0.8;
 }
 
 footer p {
@@ -46,9 +38,23 @@ footer p {
 }
 
 footer {
-    /* height: 400px; */
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: var(--cyan);
+}
+
+ul.errors {
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 2rem;
+    font-size: 0.8125rem;
+    border-radius: 5px;
+}
+
+ul.errors li {
+    display: inherit;
+    width: 100%;
+    text-align: center;
 }

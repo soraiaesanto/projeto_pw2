@@ -1,6 +1,5 @@
 .s-presentation {
     background-color: var(--light);
-    /* padding: 2rem; */
 }
 
 .posts.presentation {
@@ -10,7 +9,6 @@
     grid-row: auto;
     align-items: center;
     text-align: center;
-    /* align-content: space-between; */
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -18,12 +16,9 @@
 .card.presentation {
     background-color: var(--white);
     border-radius: 10px;
-    height: -webkit-fill-available;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
+    height: 100%;
+    width: 100%;
     padding: 2rem;
-    /* white-space: pre-line; */
 }
 
 

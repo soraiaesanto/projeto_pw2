@@ -7,7 +7,6 @@
     align-items: center;
     text-align: center;
     align-content: space-between;
-    /* flex-wrap: wrap; */
     gap: 2rem;
 }
 
@@ -30,8 +29,6 @@
     "img"
     "description";
     align-items: start;
-    /* flex-wrap: wrap; */
-    /* white-space: pre-line; */
     background-color: var(--light);
 }   
 
@@ -58,8 +55,6 @@
 
 p.name {
     font-style: italic;
-    /* font-weight: 600; */
-    /* font-size: large; */
 }
 
 .description {

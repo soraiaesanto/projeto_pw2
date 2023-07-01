@@ -12,8 +12,9 @@
 
 <body>
     <?php
-    $page = isset($_GET['page']) ? $_GET['page'] : "index";
     include('./menu.html');
+
+    $page = isset($_GET['page']) ? $_GET['page'] : "index"; // get the page
     switch ($page) {
         case "index":
             include('./header.html');
@@ -22,7 +23,7 @@
             include('./s-download.html');
             break;
         case "news":
-            include('./s-news.html');
+            include('./news.html');
             break;
             case "contacts":
             include('./contacts.html');
@@ -31,12 +32,12 @@
             include('./faqs.html');
             break;
         default:
-            include('./404.html');
+            include('./404.html'); //if dont exist
     }
+
     include('./footer2.html');
     ?>
 
 </body>
 <script src="scripts/app.js"></script>
-
 </html>
