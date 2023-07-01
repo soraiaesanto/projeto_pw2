@@ -2,13 +2,13 @@
 const menu = document.querySelector('.menu');
 const menuMobile = document.querySelector('.menu-mobile');
 const mobileMenuButton = document.querySelector('button.mobile-menu-button');
+const backToTopButton = document.getElementById("backToTopButton");
 const nameInput = document.querySelector('input[name="name"]');
 const emailInput = document.querySelector('input[name="email"]');
 const messageInput = document.querySelector('textarea[name="message"]');
 const form = document.querySelector('form');
 const errorsList = document.querySelector('ul.errors');
 const facsQuestions = document.querySelectorAll('section.s-faqs .faq .accordion');
-const backToTopButton = document.getElementById("backToTopButton");
 const languages = document.querySelectorAll('.pt,.en');
 
 // When the user scrolls down 20px from the top of the document, show the button
