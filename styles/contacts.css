@@ -16,10 +16,8 @@ p.faqs {
 h2.title,
 p.description-form {
     text-align: justify;
-    /* justify-content: left; */
     margin-right: 2rem;
     color: var(--white);
-    /* width: 80%; */
 }
 
 .asset {

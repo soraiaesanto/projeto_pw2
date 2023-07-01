@@ -76,11 +76,11 @@ a.logo-img {
 }
 
 .pt-en a{
-    color:black
+    color: var(--pure-black)
 }
 
 .pt-en .active-language{
-    color: blue;
+    color: var(--cyan);
 }
 
 #backToTopButton {

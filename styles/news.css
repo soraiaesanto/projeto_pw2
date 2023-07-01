@@ -1,0 +1,114 @@
+.news {
+    /* background-color: var(--light); */
+    padding-top: 7rem;
+}
+
+/* .news .posts.presentation {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "presentation-1 presentation-1 presentation-2 presentation-3"
+        "presentation-4 presentation-4 presentation-5 presentation-6"
+
+    ;
+    grid-row: auto; 
+    align-items: center;
+    text-align: center;
+    align-content: space-between; 
+    flex-wrap: wrap;
+    gap: 2rem;
+*/
+
+.news .posts.presentation{
+    display: grid;
+    grid-template-areas:
+      "presentation-1 presentation-2 presentation-3"
+      "presentation-4 presentation-5 presentation-6"
+      "presentation-7 presentation-8 presentation-9"
+      "presentation-10 presentation-11 presentation-12";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+.presentation-1 {
+    grid-area: presentation-1;
+}
+
+.presentation-2 {
+    grid-area: presentation-2;
+}
+
+.presentation-3 {
+    grid-area: presentation-3;
+}
+
+.presentation-4 {
+    grid-area: presentation-4;
+}
+
+.presentation-5 {
+    grid-area: presentation-5;
+}
+
+.presentation-6 {
+    grid-area: presentation-6;
+}
+
+.presentation-7 {
+    grid-area: presentation-7;
+}
+
+.presentation-8 {
+    grid-area: presentation-8;
+}
+
+.presentation-9 {
+    grid-area: presentation-9;
+}
+
+.presentation-10 {
+    grid-area: presentation-10;
+}
+
+.presentation-11 {
+    grid-area: presentation-11;
+}
+
+.presentation-12 {
+    grid-area: presentation-12;
+}
+
+.news .card.presentation {
+    background-color: var(--light);
+    border-radius: 10px;
+    height: -webkit-fill-available;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    padding: 2rem;
+    /* white-space: pre-line; */
+}
+
+
+.news.info {
+    display: block;
+    height: inherit;
+    text-align: center;
+}
+
+.news.h2-p {
+    display: block;
+    margin-top: 2rem;
+}
+
+hr.sections {
+    color: var(--dark-50);
+    opacity: 100%;
+    margin: 0;
+}
+
+.news.img {
+    width: 100px;
+}

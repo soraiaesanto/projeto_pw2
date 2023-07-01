@@ -22,7 +22,7 @@
             include('./s-download.html');
             break;
         case "news":
-            include('./s-news.html');
+            include('./news.html');
             break;
             case "contacts":
             include('./contacts.html');
