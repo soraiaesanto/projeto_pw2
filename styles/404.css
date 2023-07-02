@@ -12,10 +12,6 @@ h1.thin{
     font-weight: 400;
 }
 
-#erro404 {
-    text-align: -webkit-center;
-}
-
 span {
     background-image: url('../assets/yellow.svg');
     background-repeat: no-repeat;

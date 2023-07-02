@@ -56,15 +56,15 @@ function handleFormSubmit(event) {
     const errors = [];
 
     if (nameInput.value === '' || nameInput.value.length < 3) {
-        errors.push('Name is required and min length is 3.');
+        errors.push('Insira um assunto');
     }
 
     if (emailInput.value === '' || !emailInput.value.includes('@')) {
-        errors.push('Email is required or is invalid.');
+        errors.push('Introduza um email');
     }
 
     if (messageInput.value === '' || messageInput.value.length < 10) {
-        errors.push('Message is required and min length is 10.');
+        errors.push('Introduza uma mensagem com um mínimo de 10 caracteres');
     }
 
     if (errors.length > 0) {
