@@ -28,6 +28,19 @@ hr.small {
     opacity: 0.8;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--cyan);
+}
+
+
+footer li {
+    float: left;
+}
+
+
 footer p {
     color: var(--cyan-50);
     font-family: 'Montserrat';
@@ -35,13 +48,6 @@ footer p {
     font-size: 0.8125rem;
     align-self: end;
     margin: 1rem auto;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: var(--cyan);
 }
 
 ul.errors {

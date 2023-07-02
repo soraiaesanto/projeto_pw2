@@ -1,4 +1,3 @@
-
 nav {
     background-color: white;
     width: 100%;
@@ -25,19 +24,12 @@ nav .menu-mobile {
 
 nav .logo{
     text-align-last: start;
-}
-
-.menu img {
     width: 7rem;
 }
 
 .menu .items {
     display: flex;
     justify-content: center;
-}
-
-li {
-    float: left;
 }
 
 li a {
@@ -53,14 +45,6 @@ li a {
 
 li a:hover:not(.active) {
     color: var(--dark);
-}
-
-.active {
-    color: var(--cyan);
-}
-
-a.logo-img {
-    padding: 0;
 }
 
 .pt-en {
@@ -84,4 +68,4 @@ a.logo-img {
     border: none;
     background-color: transparent;
     cursor: pointer;
-  }
+}

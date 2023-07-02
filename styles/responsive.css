@@ -12,8 +12,12 @@
     section.s-download {
         grid-template-columns: 1fr;
     }
+    section.s-download .screen-home-2 {
+        width: 100%;
+    }
     section.s-download .screen-home-2 img, header .screen-home img{
         width: 100%;
+        max-height: 750px;
         text-align-last: center;
     }
 }
@@ -22,7 +26,8 @@
 @media only screen and (max-width: 768px) {
     header,
     section,
-    nav.container  {
+    nav.container,
+    .p-404  {
         padding-inline: 2rem!important;
     }
 
@@ -88,5 +93,9 @@
     
     .pt-en-mobile a.active-language{
         color: var(--cyan)!important;
+    }
+
+    footer .copyright{
+        padding-inline: 1rem;
     }
 }

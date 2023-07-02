@@ -36,11 +36,20 @@
 
 .card-new h2 {
     margin-bottom: 1rem;
+    text-align: left;
 }
 
 .card-new .card-info {
     color: gray;
     margin-bottom: 1rem;
+}
+
+.card-new h2,
+.card-new .card-info {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .card-new button {
