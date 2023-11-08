@@ -8,6 +8,9 @@
     <title>CLAY</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.css">
+
+    <link href="https://soraiaesanto.github.io/projeto_pw2/styles/main.css" rel="stylesheet">
+    <script src="https://soraiaesanto.github.io/projeto_pw2/scripts/app.js"></script>
 </head>
 
 <body>
