@@ -1,49 +1,132 @@
-<section class="s-faqs">
-  <h2 class="v2">Perguntas Frequentes</h2>
-  <p class="faqs">Tem alguma questão? Antes de entrar em contacto connosco, repare se encontra na lista de
-    perguntas
-    que recebemos
-    com alguma frequência a resposta às suas questões.</p>
-  <div class="faq">
-    <button class="accordion">O que é o CLAY?<i class="fa-solid fa-chevron-down"></i></button>
-    <div class="panel" style="display:none">
-      <p>O CLAY tem como público-alvo os profissionais de educação do ensino pré-escolar e 1º ciclo do ensino básico,
-        cujos limites criativos no desenvolvimento de atividades pedagógicas podem designar-se um problema.
-        Assim sendo, o principal objetivo é motivar e incentivar a criação de uma comunidade, onde o senso de partilha
-        e
-        entreajuda é a chave. O CLAY é um espaço de partilha de experiências e atividades novas e inovadoras para
-        fazer
-        com as crianças.
-        Finalmente, o conceito visual do CLAY (barro em inglês) tem em conta as atividades manuais e de expressão
-        plástica
-        e o cérebro e a sua maleabilidade, flexibilidade e grande poder de aprendizagem.</p>
+<!DOCTYPE html>
+<html lang="pt-en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLAY</title>
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <nav class="container">
+    <ul class="menu">
+      <li class="logo"><a href="./index.html" class="logo-img"><img src="assets/clay-ass_principal.svg"
+            alt="logotipo"></a></li>
+      <div class="items">
+        <li><a href="news.html">Notícias</a></li>
+        <li><a href="contacts.html">Contactos</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+      </div>
+      <div class="pt-en">
+        <li><a class="pt active-language" href="#about">PT</a></li>
+        <li><a class="en" href="#about">EN</a></li>
+      </div>
+      <button class="mobile-menu-button" title="Mobile menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </ul>
+    <div class="menu-mobile">
+      <div>
+        <p><a href="news.html">Notícias</a></p>
+        <p><a href="contacts.html">Contactos</a></p>
+        <p><a href="faqs.html">FAQs</a></p>
+        <p class="pt-en-mobile">
+          <a class="pt active-language" href="#about">PT</a>
+          /
+          <a class="en" href="#about">EN</a>
+        </p>
+      </div>
     </div>
 
-    <button class="accordion">A aplicação inclui planos pagos?<i class="fa-solid fa-chevron-down"></i></button>
-    <div class="panel" style="display:none">
-      <p>Não. Nenhuma ação dentro da aplicação é limitada a planos pagos.</p>
+    <button onclick="topFunction()" id="backToTopButton" title="Go to top"><img src="assets/go-top.svg"
+        alt="Back to top button"></button>
+  </nav>
+  <section class="s-faqs">
+    <h2 class="v2">Perguntas Frequentes</h2>
+    <p class="faqs">Tem alguma questão? Antes de entrar em contacto connosco, repare se encontra na lista de
+      perguntas
+      que recebemos
+      com alguma frequência a resposta às suas questões.</p>
+    <div class="faq">
+      <button class="accordion">O que é o CLAY?<i class="fa-solid fa-chevron-down"></i></button>
+      <div class="panel" style="display:none">
+        <p>O CLAY tem como público-alvo os profissionais de educação do ensino pré-escolar e 1º ciclo do ensino básico,
+          cujos limites criativos no desenvolvimento de atividades pedagógicas podem designar-se um problema.
+          Assim sendo, o principal objetivo é motivar e incentivar a criação de uma comunidade, onde o senso de partilha
+          e
+          entreajuda é a chave. O CLAY é um espaço de partilha de experiências e atividades novas e inovadoras para
+          fazer
+          com as crianças.
+          Finalmente, o conceito visual do CLAY (barro em inglês) tem em conta as atividades manuais e de expressão
+          plástica
+          e o cérebro e a sua maleabilidade, flexibilidade e grande poder de aprendizagem.</p>
+      </div>
+
+      <button class="accordion">A aplicação inclui planos pagos?<i class="fa-solid fa-chevron-down"></i></button>
+      <div class="panel" style="display:none">
+        <p>Não. Nenhuma ação dentro da aplicação é limitada a planos pagos.</p>
+      </div>
+
+      <button class="accordion">É preciso ser professor para fazer uso do CLAY?<i
+          class="fa-solid fa-chevron-down"></i></button>
+      <div class="panel" style="display:none">
+        <p>Não. Não é necessariamente preciso ser professor para ter acesso, navegar e publicar conteúdos no CLAY. No
+          entanto, a aplicação está pensada para um público-alvo específico - no caso, profissionais de educação do
+          ensino
+          Pré-Escolar e 1º Ciclo do Ensino Básico. Por este motivo, todo o conteúdo dentro da aplicação vai naturalmente
+          dizer respeito aos graus de escolaridade desde o Pré-Escolar ao 4º ano do 1ºCiclo.</p>
+      </div>
+
+      <button class="accordion">O CLAY engloba que graus / anos de escolaridade?<i
+          class="fa-solid fa-chevron-down"></i></button>
+      <div class="panel" style="display:none">
+        <p>No CLAY pode encontrar conteúdos de Português, Matemática, Estudo do Meio, Inglês, Expressão Plástica e
+          Música
+          desde o Pré-Escolar ao 4º ano de escolaridade.</p>
+      </div>
+
+      <button class="accordion">Qualquer utilizador pode publicar no CLAY?<i
+          class="fa-solid fa-chevron-down"></i></button>
+      <div class="panel" style="display:none">
+        <p>Sim. Qualquer utilizador com conta no CLAY pode publicar, dar like e adicionar à sua lista de Guardados
+          atividades.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="form">
+      <div class="esq">
+        <h2 class="title">Entre em contacto connosco!</h2>
+        <p class="description-form">Não encontra respostas para as suas questões? Não há problema. Pode sempre entrar em
+          contacto connosco. <br> A
+          nossa equipa fará os possíveis por respondê-lo com a maior brevidade possível.</p>
+      </div>
+      <form>
+        <input type="text" name="name" placeholder="Escreva aqui o seu assunto">
+        <input type="email" name="email" placeholder="Digite o seu email (ex: email@exemplo.com)">
+        <textarea placeholder="Escreva aqui a sua mensagem" name="message" rows="6"></textarea>
+
+        <ul class="errors"></ul>
+        <button type="submit" class="btn submit">Enviar</button>
+      </form>
     </div>
 
-    <button class="accordion">É preciso ser professor para fazer uso do CLAY?<i class="fa-solid fa-chevron-down"></i></button>
-    <div class="panel" style="display:none">
-      <p>Não. Não é necessariamente preciso ser professor para ter acesso, navegar e publicar conteúdos no CLAY. No
-        entanto, a aplicação está pensada para um público-alvo específico - no caso, profissionais de educação do
-        ensino
-        Pré-Escolar e 1º Ciclo do Ensino Básico. Por este motivo, todo o conteúdo dentro da aplicação vai naturalmente
-        dizer respeito aos graus de escolaridade desde o Pré-Escolar ao 4º ano do 1ºCiclo.</p>
-    </div>
+    <a href="#"><img class="footer" src="assets/clay-white.png" alt=""></a>
+    <hr class="large">
+    <ul class="list social">
+      <li><a href="#"><i class="fa-brands fa-square-facebook fa-2x"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+    </ul>
+    <hr class="small">
+    <p class="copyright">&copy; 2023 CLAY | Soraia Espírito Santo | Todos os direitos reservados.</p>
 
-    <button class="accordion">O CLAY engloba que graus / anos de escolaridade?<i class="fa-solid fa-chevron-down"></i></button>
-    <div class="panel" style="display:none">
-      <p>No CLAY pode encontrar conteúdos de Português, Matemática, Estudo do Meio, Inglês, Expressão Plástica e
-        Música
-        desde o Pré-Escolar ao 4º ano de escolaridade.</p>
-    </div>
+  </footer>
 
-    <button class="accordion">Qualquer utilizador pode publicar no CLAY?<i class="fa-solid fa-chevron-down"></i></button>
-    <div class="panel" style="display:none">
-      <p>Sim. Qualquer utilizador com conta no CLAY pode publicar, dar like e adicionar à sua lista de Guardados
-        atividades.</p>
-    </div>
-  </div>
-</section>
+</body>
+<script src="scripts/app.js"></script>
+
+</html>

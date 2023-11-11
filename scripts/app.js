@@ -81,7 +81,7 @@ function handleFormSubmit(event) {
 //toggle the "back to top" button visibility
 window.onscroll = () => scrollFunction();
 
-//toggle the mobile menu sivibuility
+//toggle the mobile menu visibility
 mobileMenuButton.addEventListener('click', handleMobileMenuClick);
 
 //https://stackoverflow.com/questions/19655189/javascript-click-event-listener-on-class
